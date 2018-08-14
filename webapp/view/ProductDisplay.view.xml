@@ -4,7 +4,7 @@
 	controllerName="nw.epm.refapps.ext.prod.manage.controller.ProductDisplay"
 	busy ="{= !(${viewProperties>/dataLoaded} || ${appProperties>/isAppBusy} || ${appProperties>/metaDataLoadState} === -1) }"
 	busyIndicatorDelay="{appProperties>/detailBusyIndicatorDelay}">
-	<Page id="page" title="{i18n>xtit.product}" showNavButton="{device>/system/phone}" navButtonPress="onNavButtonPress">
+	<Page id="page" title="UOL - {i18n>xtit.product}" showNavButton="{device>/system/phone}" navButtonPress="onNavButtonPress">
 		<content>
 			<!-- Object Header -->
 			<ObjectHeader
